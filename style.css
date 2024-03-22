@@ -1,0 +1,32 @@
+.top{
+font-size: medium;
+background-color: aliceblue;
+width: auto;
+height: auto;
+}
+.logo{
+    font-size:x-large;
+    position: absolute;
+    top: 0;
+}
+
+.bar{
+    text-align: center;
+}
+
+.bar ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+.login{
+    position: absolute;
+  ;
+}
+input{
+    position: absolute;
+    left: 400px;
+    background-color:orange ;
+    color: white;
+    align-content: center;
+}
