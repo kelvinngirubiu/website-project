@@ -1,32 +1,75 @@
 .top{
-font-size: medium;
-background-color: aliceblue;
-width: auto;
-height: auto;
+background-image: url(image2.jpg);
+height: 500px;
+background-position: center;
+color: white;
 }
-.logo{
-    font-size:x-large;
+.top .header .logo li{
+    display: inline-block;
+}
+.top .color{
     position: absolute;
+    background-color: rgb(233, 76, 233);
+    height: 500px;
+    opacity: 0.5;
+}
+.top .header .bar{
+    position: absolute;
+    left: 30%;
     top: 0;
 }
-
-.bar{
+.top .header .bar li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.top .header .login{
+    position: absolute;
+    right: 10%;
+    top: 0;
+}
+.top .header .login li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.top .content{
+    margin-top: 10%;
     text-align: center;
 }
-
-.bar ul li{
-    display: inline-block;
-    padding: 10px;
-    
-}
-.login{
-    position: absolute;
-  ;
-}
-input{
-    position: absolute;
-    left: 400px;
+.content input{
     background-color:orange ;
     color: white;
-    align-content: center;
+    height: 30px;
+    r
+}
+.words{
+    text-align: center;
+}
+.bottom .container .box{
+    width: 200px;
+    margin-right: 30px;
+}
+.bottom .box img{
+    width: 200px;
+    height: 200px;
+}
+.bottom .container .box .icon img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+}
+
+
+.bottom .container .box .icon{
+    position: relative;
+}
+.bottom .container{
+    display: flex;
+    justify-content: center;
+    
+}
+.bottom .container .box .icon .comment{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
